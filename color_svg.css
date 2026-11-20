@@ -1,0 +1,117 @@
+@charset "UTF-8";
+
+
+:root {
+  --bg-main-color: #ffffff;
+  --main1-color: #ff0000;
+  --main2-color: #00ff00;
+  --main3-color: #000000;
+  --main1h-color: #ff0000;
+  --main2h-color: #00ff00;
+  --main3h-color: #000000;
+  --main1-opacity: 0;
+  --main2-opacity: 0;
+  --main3-opacity: 0;
+}
+
+.bgMain{
+  fill: var(--bg-main-color);
+}
+
+.main1{
+  fill: var(--main1-color);
+}
+
+.main2{
+  fill: var(--main2-color);
+}
+
+.main3{
+  fill: var(--main3-color);
+}
+
+.main1h{
+  fill: var(--main1h-color);
+}
+
+.main2h{
+  fill: var(--main2h-color);
+}
+
+.main3h{
+  fill: var(--main3h-color);
+}
+
+.main1Logo{
+  opacity: var(--main1-opacity);
+}
+
+.main1V2{
+  fill: var(--main2-color);
+  opacity: var(--main1-opacity);
+}
+
+.main1V3{
+  fill: var(--main3-color);
+  opacity: var(--main1-opacity);
+}
+
+.main2Logo{
+  opacity: var(--main2-opacity);
+}
+
+.main2V1{
+  fill: var(--main1-color);
+  opacity: var(--main2-opacity);
+}
+
+.main2V3{
+  fill: var(--main3-color);
+  opacity: var(--main2-opacity);
+}
+
+.main3Logo{
+  opacity: var(--main3-opacity);
+}
+
+.main3V1{
+  fill: var(--main1-color);
+  opacity: var(--main3-opacity);
+}
+
+.main3V2{
+  fill: var(--main2-color);
+  opacity: var(--main3-opacity);
+}
+
+.nowColor1{
+  display: inline-block;
+  position: relative;
+  height:17px;
+  width:31px;
+  top:5px;
+  background: var(--main1-color);
+  border:solid 2px #000000;
+}
+
+.nowColor2{
+  display: inline-block;
+  position: relative;
+  height:17px;
+  width:31px;
+  top:5px;
+  background: var(--main2-color);
+  border:solid 2px #000000;
+}
+
+.nowColor3{
+  display: inline-block;
+  position: relative;
+  height:17px;
+  width:31px;
+  top:5px;
+  background: var(--main3-color);
+  border:solid 2px #000000;
+}
+
+
